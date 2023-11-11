@@ -56,3 +56,7 @@ tree-based model的混淆矩陣 :
 DNN的混淆矩陣 :
 ![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/dnn_normalized_confusion.png)
 
+我們比較一下兩者的混淆矩陣可觀察到:
+1 . DNN model 具有較高的 True Positive Rate (TPR) (Recall or Sensitivity)，較容易捕捉到smoking的情形。
+2. Tree-based model  具有較低的 False Negative Rate (FNR)，統計上較不易產生type II error。 
+
