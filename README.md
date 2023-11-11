@@ -19,7 +19,7 @@
 
 ![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/Histogram%20of%20numerical%20features%20by%20group.png)
 
-線性相關性和統計檢定的結果:
+# 線性相關性和統計檢定的結果:
 這裡檢查生理特徵與somking 存在相關性。
 
 類別資料的部分，卡方獨立性檢驗指出'Urine protein','dental caries','hearing(left)','hearing(right)' 都跟吸菸與否存在關聯性。
@@ -27,6 +27,8 @@
 數值資料的部分，我們可以用關聯矩陣的heat map將前10個相關的特徵可視化為下圖 :
 
 ![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/heat_map_smoker.png)
+
+# Tree-based model 節點分裂之特徵頻率分布
 
 CatBoost 節點分裂用到的特徵的頻率分布: 
 
