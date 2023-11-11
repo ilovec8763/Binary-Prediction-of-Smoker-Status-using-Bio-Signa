@@ -47,3 +47,12 @@ LightGBM 節點分裂用到的特徵的頻率分布:
 
 # 建模方法比較
 三種tree based 的方法的AUC分數在樹的規模相同的情形下相差不遠。若是使用三者的voting model做預測的話，test set上的分數87.068%會比三者的各自的分數(86%左右)來得高。再者，如果再加入DNN model做voting的話，卻會得到比tree-based model們略低的分數87.054%以及遠比其他方法更長的訓練時間(超過10分鐘>2分鐘)。
+
+三種tree-based方法之間具有非常相似的混淆矩陣，所以這邊直接拿它們的voting model和DNN做比較。
+
+tree-based model的混淆矩陣 :
+![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/voting_model_normalized_confusion(1).png)
+
+DNN的混淆矩陣 :
+![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/dnn_normalized_confusion.png)
+
