@@ -28,6 +28,9 @@
 
 ![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/heat_map_smoker2.png)
 
+我們可以看到血紅素、身高、體重、Gtp、三酸甘油酯、肌酸酐很可能是預測一個人是否抽菸的最佳因素，其中"身高"本身不太可能因
+為抽菸與否而改變，推測應為抽菸者多為"男性"的緣故。
+
 # Tree-based model 節點分裂之特徵頻率分布
 
 CatBoost 節點分裂用到的特徵的頻率分布: 
