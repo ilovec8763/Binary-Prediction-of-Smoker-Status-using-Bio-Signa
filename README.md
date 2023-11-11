@@ -26,7 +26,7 @@
 
 數值資料的部分，我們可以用關聯矩陣的heat map將前10個相關的特徵可視化為下圖 :
 
-![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/heat_map_smoker.png)
+![image]([https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/heat_map_smoker.png]
 
 # Tree-based model 節點分裂之特徵頻率分布
 
