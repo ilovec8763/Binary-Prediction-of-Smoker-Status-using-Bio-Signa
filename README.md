@@ -1,5 +1,7 @@
 # Binary-Prediction-of-Smoker-Status-using-Bio-Signa
 
+![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/Zwei_zigaretten.jpg)
+
 此專案的任務是利用二元分類來預測患者的吸煙狀態，根據各種健康指標。該數據集來自一個深度學習模型，該模型是在使用生物信號數據集進行吸煙狀態預測的基礎上訓練而成，其特徵分佈與原始數據集非常接近。然而，也鼓勵參與者探索兩者之間潛在的差異，並評估是否將原始數據集納入模型可以提升性能。比賽涉及分析提供的訓練和測試數據集，提交的作品將根據預測概率與實際目標之間的ROC曲線下面積進行評估。
 
 統計摘要:
