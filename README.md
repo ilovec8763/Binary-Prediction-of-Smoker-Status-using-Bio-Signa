@@ -25,16 +25,17 @@
 類別資料的部分，卡方獨立性檢驗指出'Urine protein','dental caries','hearing(left)','hearing(right)' 都跟吸菸與否存在關聯性。
 
 數值資料的部分，由上方的作圖告訴我們很可能無法將統計母體視作常態分佈，故使用無母數 Mann-Whitney U 檢定法檢測是否來自相同的母體:
+
 ![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/U_test_pic.png)
 
-可以發現到，在所有特徵上都無法拒絕吸菸與否對於這些數據具有顯著差異。
+可以發現到，在所有特徵上我們都無法拒絕吸菸與否對於這些數據具有顯著差異。
 
-"啟發性"的將吸菸的標籤看作數值標籤，我們可以用關聯矩陣的heat map將前10個相關的特徵可視化為下圖 :
+接著，"啟發性"的將吸菸的標籤看作數值標籤，我們可以用關聯矩陣的heat map將前10個相關的特徵可視化為下圖 :
 
 ![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/heat_map_smoker2.png)
 
-我們可以看到血紅素、身高、體重、Gtp、三酸甘油酯、肌酸酐、HDL、腰圍、年齡很可能是預測一個人是否抽菸的最佳因素，其中"身高"本身不太可能因
-為抽菸與否而改變，推測應為抽菸者多為"男性"的緣故。但需要注意的是，這並非很嚴謹的做法，但對於尋求重要特徵時可能會有幫助。
+我們可以看到血紅素、身高、體重、Gtp、三酸甘油酯、肌酸酐、HDL、腰圍、年齡有可能是預測一個人是否抽菸的最佳因素，其中"身高"本身不太可能因
+為抽菸與否而改變，推測應為抽菸者多為"男性"的緣故。但需要注意的是，這並非很嚴謹的做法，但對於尋求重要特徵時可能會提供一些觀點。
 
 # Tree-based model 節點分裂之特徵頻率分布
 
