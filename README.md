@@ -22,7 +22,7 @@
 
 ![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/Histogram%20of%20numerical%20features%20by%20group.png)
 
-# 線性相關性和統計檢定的結果:
+# 統計檢定的結果:
 這裡檢查生理特徵與somking 存在相關性。
 
 類別資料的部分，卡方獨立性檢驗指出'Urine protein','dental caries','hearing(left)','hearing(right)' 都跟吸菸與否存在關聯性。
