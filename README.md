@@ -46,6 +46,9 @@ LightGBM 節點分裂用到的特徵的頻率分布:
 ![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/lightgbm%20Feature%20Importance.png)
 
 # 建模方法比較
+
+由上一個部分可以看到不同的特徵之重要性分佈，對不同的模型來說是不一樣的。值得注意的是，對於XGBoost和CatBoost而言，排行前五名的特徵是完全相同的。這和LightGBM的排法有很大的不同，因此這類特徵重要性的度量可能無法推廣到其他場合，如:DNN。
+
 三種tree based 的方法的AUC分數在樹的規模相同的情形下相差不遠。若是使用三者的voting model做預測的話，test set上的分數87.068%會比三者的各自的分數(86%左右)來得高。再者，如果再加入DNN model做voting的話，卻會得到比tree-based model們略低的分數87.054%以及遠比其他方法更長的訓練時間(超過10分鐘>2分鐘)。
 
 三種tree-based方法之間具有非常相似的混淆矩陣，所以這邊直接拿它們的voting model和DNN做比較。
