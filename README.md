@@ -25,7 +25,9 @@
 類別資料的部分，卡方獨立性檢驗指出'Urine protein','dental caries','hearing(left)','hearing(right)' 都跟吸菸與否存在關聯性。
 
 數值資料的部分，由上方的作圖告訴我們很可能無法將統計母體視作常態分佈，故使用無母數 Mann-Whitney U 檢定法檢測是否來自相同的母體:
-![image]()
+![image](https://github.com/ilovec8763/Binary-Prediction-of-Smoker-Status-using-Bio-Signa/blob/main/U_test_pic.png)
+
+可以發現到，在所有特徵上都無法拒絕吸菸與否對於這些數據具有顯著差異。
 
 "啟發性"的將吸菸的標籤看作數值標籤，我們可以用關聯矩陣的heat map將前10個相關的特徵可視化為下圖 :
 
