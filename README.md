@@ -74,3 +74,5 @@ DNN的混淆矩陣 :
 
 2. Tree-based model  具有較低的 False Negative Rate (FNR)，統計上較不易產生type II error，具有較高的檢定力。 
 
+參考資料:
+Two-Independent-Samples Test Types : https://www.ibm.com/docs/zh-tw/spss-statistics/saas?topic=tests-two-independent-samples-test-types
